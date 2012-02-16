@@ -1,0 +1,1057 @@
+/* @group general styles
+-------------------------------------------------------------*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Garuda,sans-serif;
+	background-color: #FFFFFF;
+	color: #333333;
+    font-size: 12px;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	font-size: 1px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 5px 5px 15px 0;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* @group Message Box Styles
+-------------------------------------------------------------*/
+
+#errorBox{    
+	background-color: #FFBABA;    
+	border: 1px solid #D8000C;    
+	color: #D8000C;    
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;	
+	margin-right: auto;	
+	width: 97%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#errorBox h3{    
+	color: #D8000C;  
+	font-size: 12px;       
+	padding: 0px;    
+	margin: 5px;
+}
+
+#errorBox p {    
+	margin:  5px 5px 5px 5px;
+	font-size: 12px;
+}
+
+#successBox {    
+	background-color: #DFF2BF;    
+	border: 1px solid #ffc2ca;    
+	color: #4F8A10;    
+	margin-top: 5px;	
+	margin-bottom: 5px;	
+	margin-left: auto;	
+	margin-right: auto;	
+	width: 97%;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#successBox h3 {    
+	font-size: 12px;    
+	color: #4F8A10;    
+	padding: 0px;    
+	margin: 5px;
+}
+
+#successBox p {    
+	margin:  5px 5px 5px 5px;
+	font-size: 12px;
+}
+
+/* @Panel Styles
+-------------------------------------------------------------*/
+
+#panel h3{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;   
+}
+
+/* @group header styles
+-------------------------------------------------------------*/
+
+#header_wrap {
+	margin:  0 auto;
+	width: 100%;
+	background: url('../images/header_bg.gif') repeat-x top;
+	height: 150px;
+	overflow: hidden;
+}
+
+#header {
+	clear: both;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header_tab {
+	float: right;
+	position: relative;
+	top: 8px;
+	right: 49px;
+	background: url('../images/header_tab.gif');
+	width: 102px;
+	height: 21px;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Garuda,sans-serif;
+	font-size: 9px;
+	text-align: center;
+	color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header_tab a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#header_tab a:hover {
+	text-decoration: underline;
+}
+
+/* sliding panel */
+
+#toppanel {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#panel {
+	width: 100%;
+	height: 270px;
+	color: #999999;
+	background: #444a56;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+}
+
+#panel h1 {
+	font-family: arial;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 5px 0 10px;
+	margin: 0;
+}
+
+#panel h2{
+	font-size: 14px;
+	padding: 0px;
+	margin: 0;
+	color: white;
+}
+
+#panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+
+#panel a:hover {
+	color: white;
+}
+
+#panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+
+#panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#panel .content .left {
+	width: 280px;
+	float: left;
+	padding: 0 15px;
+	border-left: 1px solid #333;
+	height: 240px;
+}
+
+#panel .content .right {
+	border-right: 1px solid #333;
+	height: 240px;
+}
+
+#panel .content form {
+	margin: 0 0 10px 0;
+}
+
+#panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+#panel .content input.field {
+	width: 99%;
+	color: #000000;
+	height: 22px;
+	font-size: 12px;
+	border: 1px solid #dddddd;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Garuda,sans-serif;
+}
+
+#panel .content input.bt_login,
+#panel .content input.bt_register {
+    color:#666666;
+    background: #cceebb;
+    border: 1px solid #b6d4a7;
+    font-weight: bold;
+	font-size: 12px;
+	height: 25px;
+    line-height: 25px;
+	width: auto;
+	margin: 0px;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+    float: right;
+}
+
+#panel .content input.bt_login:hover,
+#panel .content input.bt_register:hover {
+    color: #333333;
+    text-decoration: underline;
+} 
+
+#panel .content input.bt_login {
+	width: 74px;
+}
+
+#panel .content input.bt_register {
+	width: 94px;
+}
+
+#panel .lost-pwd {
+	float:right;
+	clear: both;
+	padding: 15px 5px 0;
+	font-size: 0.95em;
+	text-decoration: none;
+    margin: 0;
+    color: #ffffff;
+}
+
+#panel .lost-pwd:hover {
+    text-decoration:  underline;
+}
+
+/* @group navigation styles
+-------------------------------------------------------------*/
+
+#navigation {
+	float: right;
+	position: relative;
+	top: 70px;
+	right: 300px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navigation ul {
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+	font-size: 14px;
+}
+
+#navigation li {
+	float: left; 
+	padding-right: 20px;
+}
+
+#navigation a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	text-decoration: underline;
+}
+
+/* @group search box styles
+-------------------------------------------------------------*/
+
+#search {
+	padding: 0px;
+	margin: 0px;
+}
+
+#search fieldset.search {
+	border: none;
+}
+
+#search .search input, .search button {
+	border: none;
+	float: left;
+}
+
+#search .search input.box {
+	color: #000;
+	width: 231px;
+	height: 20px;
+    border: 1px solid #dddddd;
+    padding: 2px;
+}
+
+#search .search button.btn {
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	background: url(../images/search_btn.png) no-repeat;
+	margin-left: -25px;
+    margin-top: 2px;
+}
+
+/* @group content styles
+-------------------------------------------------------------*/
+
+#content_wrap {
+	margin:  0 auto;
+	width: 1024px;
+	overflow: hidden;
+}
+
+#content {
+	float: left;
+	width: 730px;
+	min-height: 680px;
+	margin: 0 auto;
+	display: inline;
+	padding: 5px;
+}
+
+.page_list {
+    width: 100%;
+}
+
+.page_list a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.page_list a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+
+.page_list .avatar {
+    float: left;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #4d4d4d;   
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list .container {
+	width: 710px;
+	height: 47px;
+	left: 10px;
+	position: relative;
+}
+
+.page_list .avatar img {
+    float: left;
+    position: relative;
+    width: 45px;
+    height: 45px;
+}
+
+.page_list .general {
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    min-height: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list .general_inner_border {
+    height: auto;
+    width: auto;
+    border: 1px solid #f7f7f7;
+    padding: 2px;
+    font-size: 12px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+
+}
+
+.page_list input.textbox {
+	width: 40%;
+	color: #000000;
+	height: 22px;
+	font-size: 12px;
+	border: 1px solid #dddddd;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Garuda,sans-serif;
+}
+
+.page_list textarea {
+	color: #000000;
+	height: 200px;
+    width: 60%;
+	font-size: 12px;
+	border: 1px solid #dddddd;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Garuda,sans-serif;
+}
+
+.page_list cite {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.page_list .btn {
+    color:#666666;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    font-weight: bold;
+	font-size: 12px;
+	height: 25px;
+    line-height: 25px;
+	width: auto;
+	margin: 5px;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+    float: right;
+}
+
+.page_list .btn:hover {
+    border: 1px solid #aaaaaa;
+    background-color: #dadada;
+    color: #333333;
+} 
+
+.page_list .btn_alt {
+    color:#666666;
+    background: #cceebb;
+    border: 1px solid #b6d4a7;
+    font-weight: bold;
+	font-size: 12px;
+	height: 25px;
+    line-height: 25px;
+	width: auto;
+	margin: 5px;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+    float: right;
+}
+
+.page_list .btn_alt:hover {
+    color: #333333;
+    text-decoration: underline;
+} 
+
+.page_list .quickReplyBox {
+    margin-left: 5px;
+}
+
+.page_list .posted {
+	padding-top: 5px;
+	font-family: arial;
+	font-size: 11px;
+	font-style: italic;
+	color: #666666;
+	height: 11px;
+	line-height: 11px;
+}
+
+.page_list h2 {
+    left: 55px;
+    width: 380px;
+}
+
+.page_list h2 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.page_list h2 a:hover {
+    text-decoration: underline;
+    color: #666666;
+}
+
+.page_list .post_icons {
+    height: 15px;
+    float: right;
+    position: relative;
+    top: -50px;
+}
+
+/* @group topics listing 
+-------------------------------------------------------------*/
+
+.page_list .topics .topics_inner_border {
+    height: 47px;
+    width: auto;
+    border: 1px solid #f7f7f7;
+    padding: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.page_list .topics li {
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    height: 59px;
+    margin-bottom: 10px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list .topics h2 {
+    left: 55px;
+    width: 380px;
+}
+
+.page_list .topics h2 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.page_list .topics h2 a:hover {
+    text-decoration: underline;
+    color: #666666;
+}
+
+.page_list .topics .container {
+	width: 400px;
+	height: 40px;
+	float: left;
+	padding-top: 5px;
+	left: 10px;
+	position: relative;
+}
+
+.page_list .topics .posted {
+	padding-top: 5px;
+	font-family: arial;
+	font-size: 11px;
+	font-style: italic;
+	color: #666666;
+	height: 11px;
+	line-height: 11px;
+}
+
+.page_list .topics .commented {
+	float: left;
+	position: relative;
+	font-family: arial;
+	font-size: 11px;
+	font-style: italic;
+	color: #666666;
+	height: 11px;
+	text-align: left;
+	top: 10px;
+    left: 10px;
+}
+
+.page_list .topics .bubble {
+	background: url(../images/bubble.png);
+	float: right;
+	position: relative;
+	width: 43px;
+	height: 26px;
+	left: -20px;
+	top: 10px;
+	font-size: 12px;
+	color: #444a56;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2px;
+	line-height: 12px;
+}
+
+.page_list .topics .reply {
+	font-size: 11px;
+	font-style: italic;
+	color: #444a56;
+	top: 10px;
+	height: 0px;
+    position: relative;
+}
+
+.page_list .right {
+    text-align: right;
+    margin-right: 35px;
+    top: -20px;
+    position: relative;
+}
+
+.page_list .links a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+
+.page_list .topics .sticky {
+	background-color: #cceebb;
+    border: 1px solid #b6d4a7;
+}
+
+.page_list .topics .topics_inner_border_sticky {
+    height: 47px;
+    width: auto;
+    border: 1px solid #dbffc9;
+    padding: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list .topics .flagged {
+    background-color: #FFBABA;
+    border: 1px solid #D8000C;
+}
+
+.page_list .topics .topics_inner_border_flagged {
+    height: 47px;
+    width: auto;
+    border: 1px solid #dbffc9;
+    padding: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+.page_list .topics .topic_icons {
+    width: 18px;
+    height: 55px;
+    float: right;
+    position: relative;
+    top: -2px;
+    right: -48px;
+    text-align: center;
+}
+
+/* @posts page styles
+-------------------------------------------------------------*/
+
+.page_list .posts li {
+    margin-top: 10px;
+    border-bottom: 1px dotted #dddddd;
+}
+
+.page_list .posts li:first-child {
+    border-bottom: none;
+}
+
+.page_list .posts li h2 {
+    margin-left: 55px;
+}
+
+.page_list .posts li .posted {
+    font-size: 12px;
+    font-style: italic;
+    position: relative;
+    margin-left: 55px;
+    line-height: 12px;
+    height: 12px;
+}
+
+.page_list .posts li .buttons {
+    height: 40px;
+    line-height: 40px;
+}
+
+.page_list .posts li .buttons .smallButton{
+    float: right;
+    width: auto;   
+}
+
+.page_list .reported {
+    background-color: #FFBABA;
+}
+
+.page_list .posts li:first-child .comment {
+    clear: both;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    position: relative;
+}
+
+.page_list .posts li .toggle {
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    border-top: 1px solid #dddddd;
+    text-align: right;
+}
+
+.page_list .posts li .signature {
+    border-top: 1px solid #dddddd;
+}
+
+.page_list .posts li .delete {
+    width: 15px;
+    height: 15px;
+    float: right;
+    position: relative;
+    top: -60px;
+}
+
+/* @group sidebar styles
+-------------------------------------------------------------*/
+
+#sidebar {
+	padding: 0 0 0 0;
+	width: 261px;
+	float: left;
+	position: relative;
+	margin-left: 6px;
+    margin-top: 41px;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+#sidebar .sidebar_box {
+    height: auto;
+}
+
+#sidebar .sidebar_box_inner_border {
+    height: auto;
+    width: auto;
+    border: 1px solid #ffffff;
+    padding: 2px;
+    font-size: 12px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    boder-radius: 2px;
+}
+
+#sidebar .sidebar_heading {
+	width: 261px;
+    height: 14px;
+}
+
+#sidebar h3 {
+	font-size: 14px;
+	color: #333333;
+	height: 14px;
+	line-height: 14px;
+	padding-left: 5px;
+}
+
+#sidebar ul {
+	list-style: none; 
+	margin: 0px;
+	width: 261px;
+	padding: 0px;
+    margin-bottom: 10px;
+}
+
+#sidebar li {
+	margin: 0px;
+	height: 25px;
+	font-family: arial;
+	font-size: 12px;
+	color: #4283aa;
+}
+
+#sidebar li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #666666;
+}
+
+#sidebar li a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+/* @group Button styles
+-------------------------------------------------------------*/
+
+.pageButton {
+    color:#666666;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    font-weight: bold;
+	font-size: 12px;
+	height: 25px;
+    line-height: 25px;
+	width: auto;
+	margin: 5px;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.pageButton img {
+    line-height: 25px;
+    margin:2px;
+    float: left;
+}
+
+.pageButton .content {
+    border: 1px solid #f7f7f7;
+    height: 19px;
+    line-height: 19px;
+    padding: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    width: auto;
+}
+
+.pageButton a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.pageButton a:hover {
+	text-decoration: underline;
+    color: #333333;
+}
+
+#newTopicButton {
+	background-color: #cceebb;
+	border: 1px solid #b6d4a7;
+	color: #333333;
+    font-weight: bold;
+	font-size: 12px;
+	height: 25px;
+    line-height: 25px;
+	width: auto;
+	margin: 5px;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#newTopicButton img {
+    line-height: 25px;
+    float: left;
+    left: 26px;
+    position: relative;
+}
+
+#newTopicButton .content {
+    border: 1px solid #f7f7f7;
+    height: 19px;
+    line-height: 19px;
+    padding: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    width: auto;
+}
+
+#newTopicButton a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#newTopicButton a:hover {
+	text-decoration: underline;
+    color: #333333;
+}
+
+/* @group pagination styles
+-------------------------------------------------------------*/
+
+#pagination {
+	height: 37px;
+	clear: both;
+	width: 720px;
+	margin-top: 5px;
+}
+
+#pagination ul{
+	margin: 0px 0px 0px 0px;
+	border: 0;
+}
+
+#pagination li{
+    border:0; margin:0; padding:0;
+    font-size:10px;
+    list-style:none;
+    margin-right:2px;
+}
+
+#pagination .content {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #f7f7f7;
+    padding: 5px;
+}
+
+#pagination a{
+    border:solid 1px #444a56;
+    margin-right:2px;
+}
+
+#pagination .next a,
+#pagination .previous a {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #f7f7f7;
+}
+
+#pagination .active{
+    background:#dadada;
+    color:#666666;
+    font-weight:bold;
+    display:block;
+    float:left;
+    border: 1px solid #aaaaaa;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#pagination a:link,
+#pagination a:visited {
+    color:#666666;
+    background: #eeeeee;
+    display:block;
+    float:left;
+    text-decoration:none;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#pagination a:hover{
+    border: 1px solid #aaaaaa;
+    background: #dadada;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* @group Footer Styles
+-------------------------------------------------------------*/
+
+#footer_wrap {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	height: 26px;
+	background: url(../images/footer_bg.gif) repeat-x;
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+#footer {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+}
+
+#footer p {
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 12px;
+	font-size: 12px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}

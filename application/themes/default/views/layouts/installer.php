@@ -1,0 +1,1 @@
+<?php echo $template['partials']['header']; ?><body><div id="header_wrap">	<?php echo $template['partials']['page_header']; ?></div><div id="content_wrap">	<div id="content">			<?php echo $template['body']; ?>	</div></div><div id="footer_wrap">	<?php echo $template['partials']['footer']; ?></div></body></html>
