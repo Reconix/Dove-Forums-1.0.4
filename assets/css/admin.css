@@ -238,6 +238,7 @@ body {
 	background: #f1f1f1;
 	color: #666666;
 	font-size: 12px;
+	padding-left:15px
 }
 
 #content .content_box form {margin-bottom: 20px;}
