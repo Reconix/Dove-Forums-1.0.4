@@ -46,6 +46,7 @@ $lang['manageSettingsTitle'] = 'Manage Settings';
 
 //Headings
 $lang['dashboard'] = 'Dashboard';
+$lang['dashWelcomeTitle'] = 'Forum Dashboard';
 $lang['users'] = 'Users';
 $lang['categories'] = 'Categories';
 $lang['posts'] = 'Posts';
@@ -53,6 +54,7 @@ $lang['discussions'] = 'Discussions';
 $lang['plugins'] = 'Plugins';
 $lang['forumsSettings'] = 'Forums Settings';
 $lang['themes'] = 'Themes';
+$lang['stats'] = 'Statistics';
 
 // Settings page headings
 $lang['siteSettings'] = 'Site Settings';
