@@ -1243,7 +1243,7 @@ class Installer extends MX_Controller {
                                 'TopicID' => $topic_uniqid,
                                 'CategoryID' => '1',
                                 'Title' => 'Welcome to Dove Forums',
-                                'Body' => 'Thank you for download Dove Forums.  This is just a example topic and it can be removed via your admin panel.',
+                                'Body' => 'Thank you for downloading Dove Forums. This is just an example topic and it can be removed via your admin panel.',
                                 'CreatedBy' => $install_info['admin_username'],
                                 'PostTime' => time(),
                                 'Active' => '1',
