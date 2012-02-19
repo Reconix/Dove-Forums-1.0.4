@@ -702,6 +702,11 @@ h2 {
     text-align: center;
 }
 
+.comment {
+	padding:15px;
+}
+
+
 /* @posts page styles
 -------------------------------------------------------------*/
 
