@@ -14,7 +14,7 @@
 
 // Location : modules/installer/views/installer.php
 $lang['Title'] = 'Welcome to the Dove Forums Installer';
-$lang['welcomeText'] = 'Hi there!, <br /><br />This is the Dove Forums setup wizard you need to go through to configure <strong>Dove Forums</strong>, version <strong>1.0.3</strong> properly.
+$lang['welcomeText'] = 'Hi there!, <br /><br />This is the Dove Forums setup wizard you need to go through to configure <strong>Dove Forums</strong>, version <strong>1.0.4</strong> properly.
         <br /><br />Simply follow the instruction to complete the setup, it only takes a few seconds :)';
 $lang['nextButton'] = 'Next';
 
@@ -44,6 +44,6 @@ $lang['adminConfirmPasswordHint'] = '&nbsp;&nbsp;<cite>Re-Enter Your Admin Passw
 
 // Location : modules/installer/views/step2.php
 $lang['step2Title'] = 'Dove Forums Installation Complete';
-$lang['step2Text'] = 'The installation has being completed successfully!. You may now click `Finish` to complete the installation.';
+$lang['step2Text'] = 'The installation has completed successfully!. You may now click `Finish` to complete the installation.';
 $lang['step2Button'] = 'Finish';
 
