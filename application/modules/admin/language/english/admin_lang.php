@@ -4,7 +4,7 @@
 * Name:  Admin Language - English
 * 
 * Author: Chris Baines
-* 		  chris@doveforums.com
+*   	  chris@doveforums.com
 * 
 * Location: http://www.doveforums.com
 * 
@@ -83,7 +83,7 @@ $lang['addNewCategory'] = 'Add New Category';
 $lang['dashUsers'] = 'User(s)';
 $lang['dashDiscussions'] = 'Discussion(s)';
 $lang['dashPosts'] = 'Post(s)';
-$lang['dashWelcomeMessage'] = 'Welcome to your dashboard, here is where you can edit all the settings for your forums.  You can also manage your users, discussions, categories & more via the options above or to the left.';
+$lang['dashWelcomeMessage'] = 'Welcome to your dashboard, you can see a quick overview of your forum here. <br>  You can also manage your users, discussions, categories & more via the options and settings above or to the left.';
 
 //Settings
 $lang['siteName'] = 'Site Name: ';
@@ -99,7 +99,7 @@ $lang['hintSiteOnOff'] = '';
 $lang['allowLogin'] = 'Allow Login: ';
 $lang['hintAllowLogin'] = '';
 $lang['allowRegistration'] = 'Allow Registration: ';
-$lang['hintAllowRegistration'] = '&nbsp;&nbsp;<cite>Allow users to register?. <strong>(yes/no)</strong></cite>';
+$lang['hintAllowRegistration'] = '&nbsp;&nbsp;<cite>Allow users to register? <strong>(yes/no)</strong></cite>';
 $lang['allowEmailActivation'] = 'Allow Email Activation: ';
 $lang['hintAllowEmailActivation'] = '';
 $lang['topicsPerPage'] = 'Topics Per Page: ';
@@ -189,4 +189,4 @@ $lang['updateCategoryButton'] = 'Update Category';
 $lang['updateSettingsButton'] = 'Update Settings';
 $lang['hello'] = 'Hello,';
 $lang['logout'] = 'Logout';
-$lang['copyright'] = 'Copyright &copy; Dove Forums 2011 - 2012 Powered By <a href="http://www.doveforums.com">Dove Forums</a> Version: 1.0.3'; 
+$lang['copyright'] = 'Copyright &copy; Dove Forums 2011 - 2012 Powered By <a href="http://www.doveforums.com">Dove Forums</a> Version: 1.0.4'; 
